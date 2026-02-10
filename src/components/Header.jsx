@@ -1,17 +1,15 @@
-
-
-
-
 import React from 'react'
 
-const Header = () => {
+
+import logo from '../assets/logo.png'
+
+function Header() {
   return (
     <>
-        <header>
-            <img src="../assets/logo.png" alt="logo" />
-        <h1>my travel journal.</h1>
+       <header>
+            <img src={logo} alt="globecon" />
+            <h1>my travel journal.</h1>
         </header>
-    
     </>
   )
 }
