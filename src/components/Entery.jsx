@@ -1,12 +1,3 @@
-
-
-
-
-
-import React from 'react'
-
-
-
 function Entery({imageUrl,marker, country, googleMapsUrl, title, startDate, endDate, description}) {
   return (
 

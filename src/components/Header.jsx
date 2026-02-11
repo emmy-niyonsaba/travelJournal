@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import logo from '../assets/logo.png'
+import {logo} from '../assets/index.js'
 
 function Header() {
   return (
